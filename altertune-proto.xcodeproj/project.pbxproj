@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC54EAE03ABB2867B0B8E5D /* libPods-altertuneproto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E21C4913DBE68BFEF5A2A677 /* libPods-altertuneproto.a */; };
+		BE71A8A81EC0BFB800751399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71A8A71EC0BFB800751399 /* AppDelegate.swift */; };
+		BE71A8AA1EC0BFB800751399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71A8A91EC0BFB800751399 /* ViewController.swift */; };
+		BE71A8AD1EC0BFB800751399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE71A8AB1EC0BFB800751399 /* Main.storyboard */; };
+		BE71A8AF1EC0BFB800751399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE71A8AE1EC0BFB800751399 /* Assets.xcassets */; };
+		BE71A8B21EC0BFB800751399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE71A8B01EC0BFB800751399 /* LaunchScreen.storyboard */; };
+		BE71A8BD1EC0BFB800751399 /* altertune_protoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71A8BC1EC0BFB800751399 /* altertune_protoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE71A8B91EC0BFB800751399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE71A89C1EC0BFB800751399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE71A8A31EC0BFB800751399;
+			remoteInfo = "altertune-proto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6014F3174689E8CB89D04150 /* Pods-altertuneproto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-altertuneproto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-altertuneproto/Pods-altertuneproto.debug.xcconfig"; sourceTree = "<group>"; };
+		9260717077B8512AB8721D9B /* Pods-altertuneproto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-altertuneproto.release.xcconfig"; path = "Pods/Target Support Files/Pods-altertuneproto/Pods-altertuneproto.release.xcconfig"; sourceTree = "<group>"; };
+		BE71A8A41EC0BFB800751399 /* altertuneproto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = altertuneproto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE71A8A71EC0BFB800751399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE71A8A91EC0BFB800751399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE71A8AC1EC0BFB800751399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE71A8AE1EC0BFB800751399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE71A8B11EC0BFB800751399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE71A8B31EC0BFB800751399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE71A8B81EC0BFB800751399 /* altertune-protoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "altertune-protoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE71A8BC1EC0BFB800751399 /* altertune_protoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = altertune_protoTests.swift; sourceTree = "<group>"; };
+		BE71A8BE1EC0BFB800751399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE892721EE9B59D00C644A7 /* altertune.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = altertune.playground; sourceTree = "<group>"; };
+		E21C4913DBE68BFEF5A2A677 /* libPods-altertuneproto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-altertuneproto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE71A8A11EC0BFB800751399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC54EAE03ABB2867B0B8E5D /* libPods-altertuneproto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE71A8B51EC0BFB800751399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E42D49826DEBF7D9E0EC48D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E21C4913DBE68BFEF5A2A677 /* libPods-altertuneproto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80AC40993C29FB3CEC3BA143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6014F3174689E8CB89D04150 /* Pods-altertuneproto.debug.xcconfig */,
+				9260717077B8512AB8721D9B /* Pods-altertuneproto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE71A89B1EC0BFB800751399 = {
+			isa = PBXGroup;
+			children = (
+				BE71A8A61EC0BFB800751399 /* altertune-proto */,
+				BE71A8BB1EC0BFB800751399 /* altertune-protoTests */,
+				BE71A8A51EC0BFB800751399 /* Products */,
+				80AC40993C29FB3CEC3BA143 /* Pods */,
+				6E42D49826DEBF7D9E0EC48D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE71A8A51EC0BFB800751399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE71A8A41EC0BFB800751399 /* altertuneproto.app */,
+				BE71A8B81EC0BFB800751399 /* altertune-protoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE71A8A61EC0BFB800751399 /* altertune-proto */ = {
+			isa = PBXGroup;
+			children = (
+				BE71A8A71EC0BFB800751399 /* AppDelegate.swift */,
+				BE71A8A91EC0BFB800751399 /* ViewController.swift */,
+				BE71A8AB1EC0BFB800751399 /* Main.storyboard */,
+				BE71A8AE1EC0BFB800751399 /* Assets.xcassets */,
+				BE71A8B01EC0BFB800751399 /* LaunchScreen.storyboard */,
+				BE71A8B31EC0BFB800751399 /* Info.plist */,
+				BEE892721EE9B59D00C644A7 /* altertune.playground */,
+			);
+			path = "altertune-proto";
+			sourceTree = "<group>";
+		};
+		BE71A8BB1EC0BFB800751399 /* altertune-protoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE71A8BC1EC0BFB800751399 /* altertune_protoTests.swift */,
+				BE71A8BE1EC0BFB800751399 /* Info.plist */,
+			);
+			path = "altertune-protoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE71A8A31EC0BFB800751399 /* altertuneproto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE71A8C11EC0BFB800751399 /* Build configuration list for PBXNativeTarget "altertuneproto" */;
+			buildPhases = (
+				956D27B65DEEF02369C739BB /* [CP] Check Pods Manifest.lock */,
+				BE71A8A01EC0BFB800751399 /* Sources */,
+				BE71A8A11EC0BFB800751399 /* Frameworks */,
+				BE71A8A21EC0BFB800751399 /* Resources */,
+				5ABC089A736727EEB9BD67F7 /* [CP] Embed Pods Frameworks */,
+				FCB8D68F275410C2741CF914 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = altertuneproto;
+			productName = "altertune-proto";
+			productReference = BE71A8A41EC0BFB800751399 /* altertuneproto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE71A8B71EC0BFB800751399 /* altertune-protoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE71A8C41EC0BFB800751399 /* Build configuration list for PBXNativeTarget "altertune-protoTests" */;
+			buildPhases = (
+				BE71A8B41EC0BFB800751399 /* Sources */,
+				BE71A8B51EC0BFB800751399 /* Frameworks */,
+				BE71A8B61EC0BFB800751399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE71A8BA1EC0BFB800751399 /* PBXTargetDependency */,
+			);
+			name = "altertune-protoTests";
+			productName = "altertune-protoTests";
+			productReference = BE71A8B81EC0BFB800751399 /* altertune-protoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE71A89C1EC0BFB800751399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.fakeancient;
+				TargetAttributes = {
+					BE71A8A31EC0BFB800751399 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EP95Q9Q2HM;
+						ProvisioningStyle = Automatic;
+					};
+					BE71A8B71EC0BFB800751399 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EP95Q9Q2HM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE71A8A31EC0BFB800751399;
+					};
+				};
+			};
+			buildConfigurationList = BE71A89F1EC0BFB800751399 /* Build configuration list for PBXProject "altertune-proto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE71A89B1EC0BFB800751399;
+			productRefGroup = BE71A8A51EC0BFB800751399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE71A8A31EC0BFB800751399 /* altertuneproto */,
+				BE71A8B71EC0BFB800751399 /* altertune-protoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE71A8A21EC0BFB800751399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE71A8B21EC0BFB800751399 /* LaunchScreen.storyboard in Resources */,
+				BE71A8AF1EC0BFB800751399 /* Assets.xcassets in Resources */,
+				BE71A8AD1EC0BFB800751399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE71A8B61EC0BFB800751399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ABC089A736727EEB9BD67F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-altertuneproto/Pods-altertuneproto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956D27B65DEEF02369C739BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB8D68F275410C2741CF914 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-altertuneproto/Pods-altertuneproto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE71A8A01EC0BFB800751399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE71A8AA1EC0BFB800751399 /* ViewController.swift in Sources */,
+				BE71A8A81EC0BFB800751399 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE71A8B41EC0BFB800751399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE71A8BD1EC0BFB800751399 /* altertune_protoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE71A8BA1EC0BFB800751399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE71A8A31EC0BFB800751399 /* altertuneproto */;
+			targetProxy = BE71A8B91EC0BFB800751399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE71A8AB1EC0BFB800751399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE71A8AC1EC0BFB800751399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE71A8B01EC0BFB800751399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE71A8B11EC0BFB800751399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE71A8BF1EC0BFB800751399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE71A8C01EC0BFB800751399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE71A8C21EC0BFB800751399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6014F3174689E8CB89D04150 /* Pods-altertuneproto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EP95Q9Q2HM;
+				INFOPLIST_FILE = "altertune-proto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fakeancient.altertune-proto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE71A8C31EC0BFB800751399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9260717077B8512AB8721D9B /* Pods-altertuneproto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EP95Q9Q2HM;
+				INFOPLIST_FILE = "altertune-proto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fakeancient.altertune-proto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE71A8C51EC0BFB800751399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EP95Q9Q2HM;
+				INFOPLIST_FILE = "altertune-protoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fakeancient.altertune-protoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/altertune-proto.app/altertune-proto";
+			};
+			name = Debug;
+		};
+		BE71A8C61EC0BFB800751399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EP95Q9Q2HM;
+				INFOPLIST_FILE = "altertune-protoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fakeancient.altertune-protoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/altertune-proto.app/altertune-proto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE71A89F1EC0BFB800751399 /* Build configuration list for PBXProject "altertune-proto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE71A8BF1EC0BFB800751399 /* Debug */,
+				BE71A8C01EC0BFB800751399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE71A8C11EC0BFB800751399 /* Build configuration list for PBXNativeTarget "altertuneproto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE71A8C21EC0BFB800751399 /* Debug */,
+				BE71A8C31EC0BFB800751399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE71A8C41EC0BFB800751399 /* Build configuration list for PBXNativeTarget "altertune-protoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE71A8C51EC0BFB800751399 /* Debug */,
+				BE71A8C61EC0BFB800751399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE71A89C1EC0BFB800751399 /* Project object */;
+}
